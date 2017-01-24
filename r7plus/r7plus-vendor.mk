@@ -168,11 +168,11 @@ PRODUCT_PACKAGES += \
     qcrilhook
 PRODUCT_COPY_FILES += \
     vendor/oppo/r7plus/proprietary/bin/psensord:system/bin/psensord \
-    vendor/oppo/r7plus/proprietary/etc/firmware/fingerprints.b00:system/etc/firmware/fingerprints.b00 \
-    vendor/oppo/r7plus/proprietary/etc/firmware/fingerprints.b01:system/etc/firmware/fingerprints.b01 \
-    vendor/oppo/r7plus/proprietary/etc/firmware/fingerprints.b02:system/etc/firmware/fingerprints.b02 \
-    vendor/oppo/r7plus/proprietary/etc/firmware/fingerprints.b03:system/etc/firmware/fingerprints.b03 \
-    vendor/oppo/r7plus/proprietary/etc/firmware/fingerprints.mdt:system/etc/firmware/fingerprints.mdt \
+    vendor/oppo/r7plus/proprietary/etc/firmware/fpctzappfingerprint.b00:system/etc/firmware/fpctzappfingerprint.b00 \
+    vendor/oppo/r7plus/proprietary/etc/firmware/fpctzappfingerprint.b01:system/etc/firmware/fpctzappfingerprint.b01 \
+    vendor/oppo/r7plus/proprietary/etc/firmware/fpctzappfingerprint.b02:system/etc/firmware/fpctzappfingerprint.b02 \
+    vendor/oppo/r7plus/proprietary/etc/firmware/fpctzappfingerprint.b03:system/etc/firmware/fpctzappfingerprint.b03 \
+    vendor/oppo/r7plus/proprietary/etc/firmware/fpctzappfingerprint.mdt:system/etc/firmware/fpctzappfingerprint.mdt \
     vendor/oppo/r7plus/proprietary/etc/firmware/tp/15018/15018_FW_S3508_Samsung.img:system/etc/firmware/tp/15018/15018_FW_S3508_Samsung.img \
     vendor/oppo/r7plus/proprietary/etc/firmware/tp/15018/15018_FW_S3508_Samsung_Old.img:system/etc/firmware/tp/15018/15018_FW_S3508_Samsung_Old.img \
     vendor/oppo/r7plus/proprietary/etc/firmware/tp/15018/15018_Limit_Samsung.img:system/etc/firmware/tp/15018/15018_Limit_Samsung.img \
@@ -183,7 +183,12 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r7plus/proprietary/etc/firmware/left.tfa9890.speaker:system/etc/firmware/left.tfa9890.speaker \
     vendor/oppo/r7plus/proprietary/etc/firmware/left.tfa9890.config:system/etc/firmware/left.tfa9890.config \
     vendor/oppo/r7plus/proprietary/etc/firmware/left.tfa9890_n1c2.patch:system/etc/firmware/left.tfa9890_n1c2.patch \
+    vendor/oppo/r7plus/proprietary/lib64/hw/fingerprint.vendor.msm8916.so:system/lib64/hw/fingerprint.vendor.msm8916.so \
     vendor/oppo/r7plus/proprietary/lib64/hw/sensors.hal.tof.so:system/lib64/hw/sensors.hal.tof.so \
+    vendor/oppo/r7plus/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
+    vendor/oppo/r7plus/proprietary/vendor/lib64/libcalmodule_memsic.so:system/vendor/lib64/libcalmodule_memsic.so \
+    vendor/oppo/r7plus/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
+    vendor/oppo/r7plus/proprietary/vendor/lib64/libril-qc-radioconfig.so:system/vendor/lib64/libril-qc-radioconfig.so \
     vendor/oppo/r7plus/proprietary/vendor/lib/libactuator_dw9800w.so:system/vendor/lib/libactuator_dw9800w.so \
     vendor/oppo/r7plus/proprietary/vendor/lib/libactuator_dw9800w_camcorder.so:system/vendor/lib/libactuator_dw9800w_camcorder.so \
     vendor/oppo/r7plus/proprietary/vendor/lib/libactuator_dw9800w_camera.so:system/vendor/lib/libactuator_dw9800w_camera.so \
