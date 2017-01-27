@@ -30,6 +30,9 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/f1f/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/oppo/f1f/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/oppo/f1f/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/oppo/f1f/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
+    vendor/oppo/f1f/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
+    vendor/oppo/f1f/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
     vendor/oppo/f1f/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/oppo/f1f/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/oppo/f1f/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
