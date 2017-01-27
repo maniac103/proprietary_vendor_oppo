@@ -165,7 +165,10 @@ PRODUCT_PACKAGES += \
     TimeService \
     qcrilmsgtunnel \
     qcnvitems \
-    qcrilhook
+    qcrilhook \
+    dsi_config \
+    netmgr_config \
+    qmi_config
 PRODUCT_COPY_FILES += \
     vendor/oppo/r7plus/proprietary/bin/psensord:system/bin/psensord \
     vendor/oppo/r7plus/proprietary/etc/firmware/fpctzappfingerprint.b00:system/etc/firmware/fpctzappfingerprint.b00 \

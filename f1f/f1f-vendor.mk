@@ -165,7 +165,10 @@ PRODUCT_PACKAGES += \
     TimeService \
     qcrilmsgtunnel \
     qcnvitems \
-    qcrilhook
+    qcrilhook \
+    dsi_config \
+    netmgr_config \
+    qmi_config
 PRODUCT_COPY_FILES += \
     vendor/oppo/f1f/proprietary/bin/psensord:system/bin/psensord \
     vendor/oppo/f1f/proprietary/etc/firmware/tp/15109/15109_GOODIX_UPDATE_TRULY.bin:system/etc/firmware/tp/15109/15109_GOODIX_UPDATE_TRULY.bin \

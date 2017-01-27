@@ -1,4 +1,4 @@
-# Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -140,7 +140,10 @@ PRODUCT_PACKAGES += \
     shutdownlistener \
     TimeService \
     qcnvitems \
-    qcrilhook
+    qcrilhook \
+    dsi_config \
+    netmgr_config \
+    qmi_config
 PRODUCT_COPY_FILES += \
     vendor/oppo/r5/proprietary/etc/firmware/tp/14005/14005_FW_S3508_Tpk.img:system/etc/firmware/tp/14005/14005_FW_S3508_Tpk.img \
     vendor/oppo/r5/proprietary/etc/firmware/tp/14005/14005_Limit_Tpk.img:system/etc/firmware/tp/14005/14005_Limit_Tpk.img \

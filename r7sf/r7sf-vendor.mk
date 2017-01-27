@@ -165,7 +165,10 @@ PRODUCT_PACKAGES += \
     TimeService \
     qcrilmsgtunnel \
     qcnvitems \
-    qcrilhook
+    qcrilhook \
+    dsi_config \
+    netmgr_config \
+    qmi_config
 PRODUCT_COPY_FILES += \
     vendor/oppo/r7sf/proprietary/bin/psensord:system/bin/psensord \
     vendor/oppo/r7sf/proprietary/etc/firmware/tp/15022/15022_FW_S3508_Samsung.img:system/etc/firmware/tp/15022/15022_FW_S3508_Samsung.img \
